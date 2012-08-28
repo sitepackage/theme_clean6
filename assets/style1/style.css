@@ -1,0 +1,73 @@
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+.banners {
+  background: url('banners.png') no-repeat;
+}
+body{
+	background:url("body_bg.jpg") repeat;
+}
+/* color1 for main */
+a ,
+.cart_status a:hover  ,
+#sidebar1 h2 ,
+#footer .nav a ,
+#cart .summary .total_price ,
+#pagination a:hover ,
+#collection .title a:hover ,
+#collection .price ,
+#frontpage .heading span {
+	color: #000;
+}
+/* color1 for button */
+#sidebar1 .nav-left .active a,
+.nav-left li a:hover ,
+#header .nav a:hover ,
+#collection .buy a:hover ,
+#sidebar1 .account fieldset .button ,
+#collection .subcategory a ,
+#header .nav li a ,
+#header .nav ul {
+	background-color:#000;
+	color:#fff;
+}
+#collection .subcategory a:hover ,
+#header .nav a:hover {
+	background-color:#fff;
+	color:#000;
+}
+#pagination a:hover {
+  border: 1px solid #000;
+}
+/* color3 for header */
+#sidebar1 .sidebar h2 ,
+#sidebar1 .account .log_in h2 ,
+#sidebar1 .account .logged_in h2 ,
+.listing th ,
+#cart .items th {
+	background-color:#000;
+	color:#fff;
+}
+body ,
+#header .site_name ,
+.nav-left li a ,
+#collection .title a {
+	color:#000;
+}
+#header .site_slogan {
+	color:#666;
+}
+#collection .grid li ,
+#main .message_wrapper {
+	border:1px solid #ddd;
+}
+#frontpage .column li ,
+#frontpage #message ,
+#blog li ,
+#cart .items td ,
+.listing td {
+	border-bottom:1px dotted #ddd;
+}
