@@ -1210,18 +1210,6 @@ form .hint_area {
 	margin: 9px 0px 0 0;
 }
 #collection .buy a .view{
-	width: 14px;
-	height: 14px;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
-	background-position: 0 -72px;
-	display:block;
-}
-#collection .buy a:hover {
-}
-#collection .buy .add_to_cart {
 	width: 31px;
 	height: 14px;
 	border: 0;
@@ -1229,6 +1217,18 @@ form .hint_area {
 	padding: 0;
 	cursor: pointer;
 	background-position: 0 -86px;
+	display:block;
+}
+#collection .buy a:hover {
+}
+#collection .buy .add_to_cart {
+	width: 13px;
+	height: 14px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background-position: 0 -72px;
 }
 #collection .description {
 	padding: 6px;
